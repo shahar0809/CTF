@@ -14,7 +14,7 @@ Since we can't append to the pwd, the pwd needs to be common for every file on t
 
 When we run from the root folder, `pwd` will return `/` - which the program filtered!!!
 
-## COnstructing the command
+## Constructing the command
 
 So, normally, our command would be:
 
