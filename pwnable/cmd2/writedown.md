@@ -19,12 +19,15 @@ When we run from the root folder, `pwd` will return `/` - which the program filt
 So, normally, our command would be:
 
 `cd ..\..`
+
 `cat \home\cmd2\flag`
 
 So to avoid using `\`, we can wither use the `pwd`, or split the `cd` into 2 `cd` commands:
 
 `cd ..`
+
 `cd ..`
+
 `cat \home\cmd2\flag`
 
 Great :)
@@ -33,7 +36,9 @@ Now, we need to convert all the paths to use `pwd`. I wasn't sure on the syntax,
 Then, we get:
 
 `cd ..`
+
 `cd ..`
+
 `"$(pwd)bin$(pwd)cat $(pwd)home$(pwd)cmd2$(pwd)flag"`
 
 We have one problem left - We cant use `flag`, the program filters it. 
