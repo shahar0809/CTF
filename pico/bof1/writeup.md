@@ -32,8 +32,8 @@ return_address  <----- EBP + 4
 ```
 ## Getting the flag
 
-Which means we need to overwrite the 40 bytes of local variables,
-the old EBP, and then overwrite the return address to be the one we want.
+In order to get to the return address, we need to overwrite the 40 bytes of local variables,
+the old EBP, and only then overwrite the return address to be the one we want.
 
 ```python
 from pwn import *
