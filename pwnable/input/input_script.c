@@ -109,6 +109,8 @@ int main(int argc, char* argv[], char* envp[]){
 		close(stdin_pipe[0]);
 	    close(stderr_pipe[0]);
 
+	  
+
 	    system(full_cmd);
 
 	}
