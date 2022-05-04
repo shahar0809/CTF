@@ -1,0 +1,16 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-05-04 20:19 IDT
+Stats: 0:00:28 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 98.32% done; ETC: 20:19 (0:00:00 remaining)
+Stats: 0:00:28 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 99.74% done; ETC: 20:19 (0:00:00 remaining)
+Stats: 0:00:29 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 99.78% done; ETC: 20:19 (0:00:00 remaining)
+Nmap scan report for 10.10.18.146
+Host is up (0.13s latency).
+Not shown: 967 filtered ports, 30 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 29.55 seconds
