@@ -24,9 +24,10 @@ Nmap done: 1 IP address (1 host up) scanned in 29.55 seconds
 ```
 
 We see that there is a web server at port 80, let's go there.
-Well, nothing helpful really.
 
 ![](2022-05-04-22-20-19.png)
+
+Well, nothing helpful really. But it's always nice to have a plot in the challenge :)
 
 We also have a FTP server on port 21. Let's try to connect using anonymous login:
 
@@ -40,8 +41,8 @@ We see the following files on the server:
 
 So we might want to download them to our local machine using `get <file>`.
 
-The tasks.txt file doesn't say much but answer the first question on the walkthrough.
-The answer is lin, so let's keep that name in mind.
+The tasks.txt file doesn't say much, but it does answer the first question on the walkthrough -
+the answer is lin, so let's keep that name in mind.
 
 But the locks.txt file is much more suspicous.
 ```
@@ -74,9 +75,9 @@ ReDSynd1ca7e
 ```
 
 looks like a list of passwords...
-Wait a minute... There was also an ssh on the IP! 
+Wait a minute... There was also an open SSH port on the machine :o
 
-We can use Metasploit to brute force the password for user lin.
+We can use Metasploit to brute force the password for user lin, which we found using the tasks file.
 
 ![](2022-05-04-22-34-01.png)
 
