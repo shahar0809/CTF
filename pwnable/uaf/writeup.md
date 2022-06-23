@@ -71,7 +71,7 @@ We can also see the addresses of the VTables:
 
 ![addresses](2022-06-18-23-26-58.png)
 
-For `Man` it's `0x401570`, for `Woman` it's ``0x401550`.
+For `Man` it's `0x401570`, for `Woman` it's `0x401550`.
 
 Noise!! Now for the part where we abuse UAF.
 If you look again at the loop, you'll notice that we can delete `m` and `w` and then use them although they were alredy freed.
