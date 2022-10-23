@@ -70,7 +70,7 @@ shellcraft.write(1, "rbx", 32)
 
 And that's it!!!
 
-Full code is also in the folder.
+Full code is also in the folder. I attached the assembly code and exe, it helps to debug it with gdb.
 
 ```
 Mak1ng_shelLcodE_i5_veRy_eaSy

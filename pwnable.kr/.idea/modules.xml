@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/uaf.iml" filepath="$PROJECT_DIR$/.idea/uaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pwnable.iml" filepath="$PROJECT_DIR$/.idea/pwnable.iml" />
     </modules>
   </component>
 </project>
