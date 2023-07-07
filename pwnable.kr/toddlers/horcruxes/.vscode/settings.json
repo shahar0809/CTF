@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "seccomp.h": "c",
+        "types.h": "c",
+        "stdio.h": "c"
+    },
+    "editor.fontSize": 20
+}
